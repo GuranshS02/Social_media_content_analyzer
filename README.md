@@ -4,7 +4,7 @@ An AI-powered full-stack web application that analyzes social media posts from P
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **PDF Parsing** – Extract text from PDF documents while preserving formatting
 - **OCR (Image Text Extraction)** – Use Tesseract.js to extract text from JPG, PNG, and other image formats
@@ -17,7 +17,7 @@ An AI-powered full-stack web application that analyzes social media posts from P
 
 ---
 
-## 🛠 Tech Stack (MERN)
+##  Tech Stack (MERN)
 
 | Layer | Technology |
 |-------|-----------|
@@ -31,7 +31,7 @@ An AI-powered full-stack web application that analyzes social media posts from P
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 social-media-analyzer/
@@ -71,7 +71,7 @@ social-media-analyzer/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Node.js v18+
@@ -119,7 +119,7 @@ Visit: **http://localhost:5173**
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -131,7 +131,7 @@ Visit: **http://localhost:5173**
 
 ---
 
-## 📊 Engagement Scoring
+##  Engagement Scoring
 
 The app scores content across 5 dimensions (each 0-100):
 
@@ -143,7 +143,7 @@ The app scores content across 5 dimensions (each 0-100):
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Upload the following file types to test:
 
@@ -153,12 +153,12 @@ Upload the following file types to test:
 
 ---
 
-## 📝 Approach (Brief Write-up)
+##  Approach (Brief Write-up)
 
 This application was built using the MERN stack to analyze social media content from uploaded files. The backend uses `pdf-parse` for PDF text extraction and `Tesseract.js` for OCR on image files. Extracted text is then scored across 5 engagement metrics using a custom algorithm that evaluates readability, hashtag usage, call-to-action presence, sentiment, and content length. Results and suggestions are stored in MongoDB and presented through a clean React frontend with drag-and-drop upload, real-time loading states, and an analysis history view.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
